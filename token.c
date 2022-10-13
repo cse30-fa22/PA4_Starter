@@ -23,7 +23,10 @@ token(char *buf, char delim, int cnt, char **ptable, unsigned long lineno,
             char *argv0)
 {
 
-/* PA4 task: delete this put your code here */
+/* PA4 task: delete this put your code here
+ *
+ * hint: the first entry the pointer table is set by *ptable = buf;
+ */
 
 }
 
