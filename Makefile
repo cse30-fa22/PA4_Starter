@@ -24,7 +24,7 @@ $(OBJ):	$(HEAD)
 $(PROG):	$(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) $(LIB) -o $@
 
-#Specify the test number to test at one
+#Specify the test number into test groups
 LIST1    = 1 2 
 LIST2    = 3 4 
 LIST3    = 5 
