@@ -29,17 +29,17 @@ LIST1    = 1 2
 LIST2    = 3 4 
 LIST3    = 5 
 
-.PHONY: clean alltest test1 test2 test3
+.PHONY: clean alltest testA testB testC
 
-alltest:    test1 test2 test3
+alltest:    testA testB testC
 
-test1:      $(PROG)
+testA:      $(PROG)
 	-./runtest -c3 $(LIST1)
 
-test2:      $(PROG)
+testB:      $(PROG)
 	-./runtest -c4 $(LIST2)
 
-test3:      $(PROG)
+testC:      $(PROG)
 	-./runtest -c43 $(LIST3)
 
 # remove binaries
