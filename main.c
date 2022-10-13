@@ -91,3 +91,4 @@ main(int argc, char **argv)
  * fprintf(stderr, "%s: improper column value\n", *argv);
  * fprintf(stderr, "%s: column value %d, out of range, min %d max is %d\n",
  *          *argv, cols, MINCOL, MAXCOL);
+ */
