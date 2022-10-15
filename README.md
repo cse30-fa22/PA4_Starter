@@ -7,4 +7,6 @@ Turn on the execute bits for the bash program runtest
 
 chmod 0755 runtest
 
+Please protect your source code against accidental loss!
+
 Make sure you use git to periodically check in your work
