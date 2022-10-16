@@ -6,8 +6,8 @@
 /*
  * Constants (some are for testing only)
  */
-#define MINCOL  2       /* min number of columns (data fields) */
-#define MAXCOL  50      /* max number of columns (data fields) */
+#define MINCOL  2       /* min number of columns (data fields) in a record */
+#define MAXCOL  50      /* max number of columns (data fields) in a record */
 #define BUFSZ   8192    /* input buffer size limit */
 #define INDELIM ','     /* input column (data field) delimiter */
 
