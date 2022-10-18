@@ -20,7 +20,7 @@ main(int argc, char **argv)
     unsigned long linecnt = 0;  /* input line number (record number) counter */
     unsigned long dropcnt = 0;  /* number of input lines dropped counter */
     int cols = 0;               /* number of columns in the input */
-    char *ptr;                  /* pointer for use by strtoul() */
+    char *ptr;                  /* pointer for use by strtol() */
 
     /*
      * parse the argv options
